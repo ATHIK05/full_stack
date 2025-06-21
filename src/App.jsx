@@ -10,11 +10,9 @@ import Services from './Pages/Services'
 import About from './Pages/About'
 import Navbar from './components/Navbar'
 import State from './hooks/State'
-import Form from './hooks/form'
 import Effect from './hooks/Effect'
-
+import Form from 'src/hooks/Form'
 function App() {
-
   return (
     <>
       <Navbar/>
