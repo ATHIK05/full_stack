@@ -11,7 +11,6 @@ import About from './Pages/About'
 import Navbar from './components/Navbar'
 import State from './hooks/State'
 import Effect from './hooks/Effect'
-import Form from 'src/hooks/Form'
 function App() {
   return (
     <>
@@ -23,7 +22,6 @@ function App() {
         <Route path='/Welcome' element={<Welcome name='Mohamed Athik R' country='India'/>}/>
         <Route path='/Skills' element={<Skills skill={['React','Node','Express','MongoDb']}/>}/>
         <Route path='/state' element={<State/>}/>
-        <Route path='/form' element={<Form/>}/>
         <Route path='/effect' element={<Effect/>}/>
       </Routes>
       <h1>Hello World</h1> 
